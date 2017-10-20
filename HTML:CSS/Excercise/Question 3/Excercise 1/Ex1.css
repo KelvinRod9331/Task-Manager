@@ -1,0 +1,6 @@
+h1, p, ul  {
+    color: red;
+    text-shadow: 1px 1px 1px black;
+    padding: 3px;
+    text-align: center;
+  }
