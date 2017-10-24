@@ -1,0 +1,22 @@
+#email{
+    padding: 1.4em;
+}
+
+form p{
+    margin: auto;
+}
+
+#submit
+{    
+    visibility: hidden;
+}
+
+input:valid{
+border-color: green;
+}
+
+input:focus{
+    background-color: yellow
+}
+
+
