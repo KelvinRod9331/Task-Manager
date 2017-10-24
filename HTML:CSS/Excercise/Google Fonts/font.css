@@ -1,0 +1,52 @@
+/* General setup */
+
+@font-face {
+    font-family: 'chantelli_antiquaregular';
+    src: url('chantelli_antiqua-webfont.woff2') format('woff2'),
+         url('chantelli_antiqua-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'antic_didoneregular';
+    src: url('demo-fonts/anticdidone-regular-webfont.woff2') format('woff2'),
+         url('demo-fonts/anticdidone-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+html {
+    font-size: 10px;
+    margin: 0;
+  }
+  
+  body {
+    width: 80%;
+    max-width: 800px;
+    margin: 0 auto;
+    font-family: 'Merriweather', serif;
+  }
+  
+  /* Typography */
+  
+  h1 {
+    font-size: 3.2rem;
+    font-family: 'Saira Extra Condensed', sans-serif;
+  }
+  
+  h2 {
+    font-size: 2.4rem;
+  }
+  
+  p {
+    font-size: 1.4rem;
+    line-height: 1.6;
+    word-spacing: 0.6rem;
+    font-family: 'antic_didoneregular';
+  }
