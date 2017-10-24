@@ -1,0 +1,23 @@
+a[href^="http://"]{
+    color:blue;
+}
+
+a[href^="https://"]{
+    color:purple;
+}
+
+li:nth-child(2){
+    font-style: italic;
+}
+
+li:nth-last-child(2){
+    font-weight: bold;
+}
+
+a[href*=".org"]{
+    text-transform: uppercase
+}
+
+a[href*="panda"]{
+    background-color:  cornflowerblue
+}

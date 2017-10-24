@@ -1,0 +1,22 @@
+a,a:link{
+    color: blue
+}
+
+
+a:visited{
+    color:grey
+}
+
+a:hover, a:active{
+    color: green;
+    font-weight: bold;
+}
+
+p:first-of-type::first-line{
+    text-transform: uppercase;
+}
+
+p:nth-of-type(2)::first-line{
+    background-color: pink
+}
+
