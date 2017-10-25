@@ -1,0 +1,15 @@
+body{
+    font-size: 24px;
+    width: 40em; 
+    text-align: center;
+}
+
+body{
+    margin: 17.5%;
+} 
+
+@media (max-width: 961px) {
+    body {
+        width: 30em;
+    }
+ }

@@ -1,0 +1,54 @@
+#picture{
+    text-align: center;
+    margin-left: 20%
+}
+
+#text{
+    margin-left: 20%;
+}
+
+.sidenav {
+    font-family: 'Kaushan Script', cursive;
+    height: 100%;
+    width: 20%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: pink;
+    overflow-x: hidden;
+    padding-top: 20px;
+    border: 2px solid green;
+}
+
+.sidenav a {
+    padding: 60px;
+    padding-bottom: 50%;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+}
+
+.sidenav a:hover {
+    color: #df0000;
+}
+
+.main {
+    margin-left: 200px; 
+}
+
+@media print {
+    .sidenav {visibility: hidden }
+    #picture {padding: 1px;}
+    #text{padding: 1px;}
+    
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+@media screen and (max-height: 250px){
+    #picture{padding-left: 20px;}
+}
