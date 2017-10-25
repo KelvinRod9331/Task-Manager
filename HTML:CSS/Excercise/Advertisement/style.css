@@ -1,0 +1,9 @@
+div{
+  top: 0;
+  position: fixed;
+  height: 20%;
+  width: 100%;
+}
+div + p {
+padding-bottom: 15%
+}
