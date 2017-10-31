@@ -1,0 +1,11 @@
+#topleft,
+#topright,
+#bottomleft,
+#bottomright{
+    height: 350px;
+    width: 49%;
+    border: 2px solid;
+    float: left;
+    
+}
+
