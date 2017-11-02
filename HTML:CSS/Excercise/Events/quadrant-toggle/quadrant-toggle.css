@@ -1,0 +1,21 @@
+body{
+    margin: 0;
+}
+    
+    div {   
+        border: 2px solid black;
+        height: 50%;
+        width: 50%;
+        position: absolute;
+        color: white;
+    }
+    
+    .right{
+        right: 0;
+    }
+
+    .bottom{
+        bottom: 0;
+    }
+
+
