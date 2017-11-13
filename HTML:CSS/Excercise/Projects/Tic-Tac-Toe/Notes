@@ -1,0 +1,56 @@
+#1 How to use images as a cursor
+cursor: url(images/my-cursor.png), auto;
+
+
+
+function xWins(win) {
+    
+    if (quadA.innerText === "X" && quadB.innerText === "X" && quadC.innerText === "X") {
+         win = true
+    } else if (quadD.innerText === "X" && quadE.innerText === "X" && quadF.innerText === "X") {
+         win = true
+    } else if (quadG.innerText === "X" && quadH.innerText === "X" && quadI.innerText === "X") {
+         win = true
+    } else if (quadA.innerText === "X" && quadD.innerText === "X" && quadG.innerText === "X") {
+         win = true
+    } else if (quadB.innerText === "X" && quadE.innerText === "X" && quadH.innerText === "X") {
+         win = true
+    } else if (quadC.innerText === "X" && quadF.innerText === "X" && quadI.innerText === "X") {
+         win = true
+    } else if (quadA.innerText === "X" && quadE.innerText === "X" && quadI.innerText === "X") {
+         win = true
+    } else if (quadG.innerText === "X" && quadE.innerText === "X" && quadC.innerText === "X") {
+         win = true
+    }
+
+    return win
+}
+
+function oWins(win) {
+    
+    if (quadA.innerText === "O" && quadB.innerText === "O" && quadC.innerText === "O") {
+        win = true
+    } else if (quadD.innerText === "O" && quadE.innerText === "O" && quadF.innerText === "O") {
+        win = true
+    } else if (quadG.innerText === "O" && quadH.innerText === "O" && quadI.innerText === "O") {
+        win = true
+    } else if (quadA.innerText === "O" && quadD.innerText === "O" && quadG.innerText === "O") {
+        win = true
+    } else if (quadB.innerText === "O" && quadE.innerText === "O" && quadH.innerText === "O") {
+        win = true
+    } else if (quadC.innerText === "O" && quadF.innerText === "O" && quadI.innerText === "O") {
+        win = true
+    } else if (quadA.innerText === "O" && quadE.innerText === "O" && quadI.innerText === "O") {
+        win = true
+    } else if (quadG.innerText === "O" && quadE.innerText === "O" && quadC.innerText === "O") {
+        win = true
+    }
+    return win
+}
+
+
+if(xWins(win)){
+            header.innerText="X Wins The Game!"
+        }else if(oWins(win)){
+            header.innerText="O Wins The Game!"
+        }

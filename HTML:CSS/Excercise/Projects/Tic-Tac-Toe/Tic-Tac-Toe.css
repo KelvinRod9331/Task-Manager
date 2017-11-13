@@ -1,0 +1,63 @@
+body{
+  background-color: rgb(238, 155, 107)
+}
+
+#board{
+  width: 404px;
+  height: 370px;
+  margin: 0 auto;
+  cursor: url('Rounded_X.png'), auto;
+  border: none;
+  }
+  
+  .row {
+      margin: 5px;
+      user-select: none;
+    }
+  
+    .quad{
+      display: block;
+      border-right: 2px solid black;
+      border-bottom: 2px solid black;
+      width: 130px;
+      height: 120px;
+      float: left;
+      text-align: center;
+      font-size: 95px;
+      font-family: 'Times New Roman', Times, serif;
+    }
+  
+    h1{
+      margin-bottom: 3%;
+      height: 30px;
+      font-size: 50px;
+      text-align: center;
+      color: olivedrab; 
+      
+    }
+  
+    #q3,#q6,#q9{
+      border-right: none
+    }
+  
+    #q7,#q8,#q9{
+      border-bottom: none;
+    }
+    
+    #reset{
+      margin-top: 5%;
+      margin-left: 45.5%;
+      font-size: 20px;
+    }
+
+    span{
+      margin-top: 5%;
+      float: right;
+      color: rgb(39, 5, 5);
+      font-family: 'Dancing Script', cursive;
+      font-weight: bolder;
+      font-size: 20px;
+    }
+  
+  
+  
